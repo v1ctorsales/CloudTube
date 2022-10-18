@@ -19449,7 +19449,7 @@
                   "type",
                   "text",
                   "placeholder",
-                  "Insira a URL do  v\xeddeo...",
+                  "Insira a URL ou pesquise um v\xeddeo...",
                   1,
                   "url-input",
                 ],
