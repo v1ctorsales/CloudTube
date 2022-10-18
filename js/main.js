@@ -19411,7 +19411,7 @@
               );
             }
             goToGithub() {
-              window.open("https://github.com/thorbngdev/media-downloader");
+              window.open("https://github.com/v1ctorsales");
             }
             getInfoIconStyle() {
               return this.isDownloading
