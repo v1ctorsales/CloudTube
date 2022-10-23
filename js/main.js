@@ -19125,12 +19125,12 @@
             A(31, "p"),
             X,
             M(),
-            A(33, "button", 24),
+            A(33, "button"),
             Ee("click", function () {
               return An(t), be().goToPatreon();
             }),
             M(),
-            A(35, "button", 24),
+            A(35, "button"),
             Ee("click", function () {
               return An(t), be().goToCoffee();
             }),
@@ -19402,17 +19402,9 @@
                 ? t.thumbnails[1]
                 : t.thumbnails[2];
             }
-            goToCoffee() {
-              window.open("https://www.buymeacoffee.com/thorbngdev");
-            }
-            goToPatreon() {
-              window.open(
-                "https://patreon.com/user?u=79292488&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator"
-              );
-            }
-            goToGithub() {
-              window.open("https://github.com/v1ctorsales");
-            }
+            goToCoffee() {}
+            goToPatreon() {}
+            goToGithub() {}
             getInfoIconStyle() {
               return this.isDownloading
                 ? "get-info-icon-downloading"
